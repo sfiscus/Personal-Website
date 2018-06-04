@@ -1,0 +1,330 @@
+body {
+  margin-top: 70px;
+  font-size: 25px;
+  text-align: justify;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lora', serif;
+}
+
+p {
+  font-family: 'Lora', serif;
+}
+
+/* Remove underline from hyperlink*/
+a:link {
+    text-decoration: none;
+}
+
+.navbar-default {
+  background: #fff;
+  border: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  color: #000 !important;
+  font-weight: bold;
+}
+
+#showcase h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+#showcase img {
+  width: 100%;
+  margin-left: 60px;
+}
+
+#showcase .showcase-right {
+  margin-top: 90px;
+}
+
+#info1 .info-right {
+  margin-top: 90px;
+}
+
+#info1 h1 {
+  font-size: 45px;
+}
+
+#info2 {
+  margin: 20px 0 60px 0;
+}
+
+#info2 h1 {
+  font-size: 45px;
+}
+
+#playstore {
+  height: 125px;
+  width: 300px;
+}
+
+#footer {
+  clear: both;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Allowing for correct element sizes on multiple screen resolutions */
+@media (max-width: 568px) {
+  #showcase h1,
+  #showcase p,
+  #info1,
+  #info2 {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar .navbar-header {
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+  }
+
+  .navbar .navbar-toggle {
+    text-align: center;
+  }
+
+  .navbar-brand {
+    font-size: 17px;
+  }
+
+  #showcase h1 {
+    font-size: 25px;
+  }
+
+  #showcase p {
+    font-size: 20px;
+  }
+
+  img,
+  #showcase img {
+    float: none;
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+    display: block;
+    margin: auto;
+  }
+
+  #info1 h1 {
+    font-size: 25px;
+  }
+
+  #info1 p,
+  #info2 p {
+    font-size: 20px;
+  }
+
+  #info2 .info-left h1 {
+    font-size: 25px;
+  }
+
+  #info2 .info-right h1 {
+    font-size: 25px;
+  }
+
+  .move {
+    position: relative;
+    float: none;
+    text-align: center;
+  }
+
+  #info2 .info-left {
+    position: absolute;
+    display: block;
+    clear: both;
+    left: 0;
+    top: 0;
+    z-index: 0;
+  }
+
+  #info2 .info-right {
+    position: absolute;
+    display: block;
+    padding-top: 200px;
+    left: 0;
+    clear: both;
+    top: 0;
+    z-index: 1;
+  }
+
+  #info2 .info-left,
+  .info-right {
+    float: none;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+  }
+
+  #playstore {
+    height: 100px;
+    width: 175px;
+  }
+
+  #footer {
+    padding-top: 400px;
+    padding-bottom: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  #showcase h1,
+  #showcase p,
+  #info1 {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar .navbar-fixed-top {
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+  }
+
+  .navbar .navbar-collapse {
+    margin-right: 100px;
+  }
+
+  #info2 .info-left {
+    font-size: 20px;
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  #info2 .info-right {
+    font-size: 20px;
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  #info1 h1,
+  #info2 h1 {
+    font-size: 30px;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  #showcase h1 {
+    font-size: 30px;
+  }
+
+  img,
+  #showcase img {
+    float: none;
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+    display: block;
+    margin: auto;
+  }
+
+  #playstore {
+    height: 125px;
+    width: 250px;
+  }
+}
+
+@media (min-width: 992px) {
+  #showcase h1,
+  #showcase p,
+  #info1 {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  #showcase h1 {
+    font-size: 25px;
+  }
+
+  .navbar-brand {
+    padding-top: 15px;
+    font-size: 20px;
+  }
+
+  #info2 h1 {
+    font-size: 30px;
+  }
+
+  #info2 {
+    padding-top: 20px;
+  }
+
+  img,
+  #showcase img {
+    float: none;
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+    display: block;
+    margin: auto;
+  }
+
+  #playstore {
+    height: 125px;
+    width: 225px;
+  }
+
+  #footer {
+    padding-bottom: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #showcase h1,
+  #showcase p,
+  #info1 {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  #showcase h1 {
+    font-size: 30px;
+  }
+
+  #showcase p,
+  #info1 p {
+    font-size: 20px;
+  }
+
+  #info1 h1 {
+    font-size: 30px;
+  }
+
+  img,
+  #showcase img {
+    float: none;
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+    display: block;
+    margin: auto;
+  }
+}
